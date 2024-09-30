@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="JavaSE-17" jdk_type="JavaSDK">
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="postgresql-42.7.4" value="project"/>
+	</levels>
+</component>
