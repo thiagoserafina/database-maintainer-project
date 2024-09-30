@@ -16,7 +16,7 @@ Caso o programa não consiga se conectar ao banco de dados PostgreSQL automatica
 
 #### No Eclipse
 
-1. Baixe o driver JDBC do PostgreSQL [aqui](https://jdbc.postgresql.org/download/postgresql-42.7.4.jar) (substitua `<versão>` pela versão mais recente).
+1. Baixe a versão mais recente do driver JDBC do PostgreSQL [aqui](https://jdbc.postgresql.org/download).
 2. Abra o Eclipse e seu projeto.
 3. Clique com o botão direito no projeto na `Package Explorer` e selecione `Build Path > Configure Build Path`.
 4. Vá até a aba `Libraries` e clique em `Add External JARs...`.
@@ -25,7 +25,7 @@ Caso o programa não consiga se conectar ao banco de dados PostgreSQL automatica
 
 #### No IntelliJ IDEA
 
-1. Baixe o driver JDBC do PostgreSQL [aqui](https://jdbc.postgresql.org/download/postgresql-42.7.4.jar) (substitua `<versão>` pela versão mais recente).
+1. Baixe a versão mais recente do driver JDBC do PostgreSQL [aqui](https://jdbc.postgresql.org/download).
 2. Abra o IntelliJ IDEA e seu projeto.
 3. Vá até `File > Project Structure`.
 4. Na aba `Libraries`, clique em `+` e escolha `Java`.
