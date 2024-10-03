@@ -10,6 +10,8 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Date;
 
 public class DBBackup {
@@ -22,8 +24,9 @@ public class DBBackup {
 
     private static final String ALGORITHM = "AES";
     private static final int KEY_SIZE = 256;
+    private static final int MAX_BACKUPS = 5;
 
-    public static void executar(boolean excluirAntigos, boolean copiarBackupAdicional) {
+    public static void executar(boolean copiarBackupAdicional) {
         File backupDir = new File(BACKUP_PATH);
         File backupAdditionalDir = new File(BACKUP_ADDITIONAL_PATH);
 
@@ -36,21 +39,25 @@ public class DBBackup {
         }
 
         try {
-            String backupName = criarBackup(copiarBackupAdicional);
+            String backupName = criarBackup();
 
-            criptografarBackup(backupName);
+            String encryptedBackupName = criptografarBackup(backupName);
 
-            if (excluirAntigos) {
-                excluirAntigos();
+            excluirBackupOriginal(backupName);
+
+            manterLimiteDeBackups(BACKUP_PATH);
+            if (copiarBackupAdicional) {
+                copiarBackupAdicional(encryptedBackupName);
+                manterLimiteDeBackups(BACKUP_ADDITIONAL_PATH);
             }
 
-            Logger.log("Backup criado com sucesso em: " + BACKUP_PATH);
+            Logger.log("Backup criado e criptografado com sucesso em: " + BACKUP_PATH);
         } catch (InterruptedException | IOException e) {
             Logger.log("Erro ao criar o backup: " + e.getMessage());
         }
     }
 
-    private static String criarBackup(boolean copiarBackupAdicional) throws IOException, InterruptedException {
+    private static String criarBackup() throws IOException, InterruptedException {
         String backupFilePath = getBackupFileName();
         String command = String.format("pg_dump -U %s -F c -b -v -f \"%s\" %s",
                 USER_NAME, backupFilePath, DATABASE_NAME);
@@ -61,20 +68,7 @@ public class DBBackup {
 
         int exitCode = process.waitFor();
         if (exitCode != 0) {
-            throw new IOException("Erro ao executar pg_dump, código de saída: " + exitCode);
-        }
-
-        if (copiarBackupAdicional) {
-            String additionalBackupFilePath = BACKUP_ADDITIONAL_PATH + new File(backupFilePath).getName();
-            ProcessBuilder processBuilderAdditional = new ProcessBuilder("cmd.exe", "/c", "copy", backupFilePath, additionalBackupFilePath);
-            Process processAdditional = processBuilderAdditional.start();
-
-            int exitCodeAdditional = processAdditional.waitFor();
-            if (exitCodeAdditional != 0) {
-                throw new IOException("Erro ao copiar backup adicional, código de saída: " + exitCodeAdditional);
-            }
-
-            Logger.log("Backup adicional criado em: " + additionalBackupFilePath);
+            throw new IOException("Erro ao executar pg_dump, codigo de saida: " + exitCode);
         }
 
         Logger.log("Backup do banco de dados criado em: " + backupFilePath);
@@ -82,7 +76,8 @@ public class DBBackup {
         return backupFilePath;
     }
 
-    private static void criptografarBackup(String backupName) {
+    private static String criptografarBackup(String backupName) {
+        String encryptedBackupName = backupName + ".enc";
         try {
             Logger.log("Iniciando criptografia do backup.");
 
@@ -94,7 +89,7 @@ public class DBBackup {
             cipher.init(Cipher.ENCRYPT_MODE, secretKey);
 
             try (FileInputStream fis = new FileInputStream(backupName);
-                 FileOutputStream fos = new FileOutputStream(backupName + ".enc")) {
+                 FileOutputStream fos = new FileOutputStream(encryptedBackupName)) {
 
                 byte[] input = new byte[64];
                 int bytesRead;
@@ -112,30 +107,50 @@ public class DBBackup {
                 }
             }
 
-            Logger.log("Backup criptografado com sucesso: " + backupName + ".enc");
+            Logger.log("Backup criptografado com sucesso: " + encryptedBackupName);
         } catch (Exception e) {
             Logger.log("Erro ao criptografar o backup: " + e.getMessage());
         }
+        return encryptedBackupName;
     }
 
-    private static void excluirAntigos() {
-        File dir = new File("C:\\Temp\\Backup\\");
-        File[] files = dir.listFiles();
+    private static void excluirBackupOriginal(String backupName) {
+        File originalBackup = new File(backupName);
+        if (originalBackup.delete()) {
+            Logger.log("Backup original excluído: " + backupName);
+        } else {
+            Logger.log("Erro ao excluir o backup original: " + backupName);
+        }
+    }
 
-        if (files != null) {
-            for (File file : files) {
-                long diff = System.currentTimeMillis() - file.lastModified();
-                long daysOld = diff / (1000 * 60 * 60 * 24);
-                if (daysOld > 7) {
-                    if (file.delete()) {
-                        Logger.log("Arquivo excluído: " + file.getName());
-                    } else {
-                        Logger.log("Erro ao excluir arquivo: " + file.getName());
-                    }
+    private static void copiarBackupAdicional(String encryptedBackupName) throws IOException, InterruptedException {
+        String additionalBackupFilePath = BACKUP_ADDITIONAL_PATH + new File(encryptedBackupName).getName();
+        ProcessBuilder processBuilderAdditional = new ProcessBuilder("cmd.exe", "/c", "copy",
+                encryptedBackupName, additionalBackupFilePath);
+        Process processAdditional = processBuilderAdditional.start();
+
+        int exitCodeAdditional = processAdditional.waitFor();
+        if (exitCodeAdditional != 0) {
+            throw new IOException("Erro ao copiar backup adicional, codigo de saida: " + exitCodeAdditional);
+        }
+
+        Logger.log("Backup adicional criado em: " + additionalBackupFilePath);
+    }
+
+    private static void manterLimiteDeBackups(String path) {
+        File dir = new File(path);
+        File[] files = dir.listFiles((dir1, name) -> name.endsWith(".enc"));
+
+        if (files != null && files.length > MAX_BACKUPS) {
+            Arrays.sort(files, Comparator.comparingLong(File::lastModified));
+
+            for (int i = 0; i < files.length - MAX_BACKUPS; i++) {
+                if (files[i].delete()) {
+                    Logger.log("Backup antigo excluído de " + path + ": " + files[i].getName());
+                } else {
+                    Logger.log("Erro ao excluir backup antigo de " + path + ": " + files[i].getName());
                 }
             }
-        } else {
-            Logger.log("Nenhum arquivo encontrado para exclusão.");
         }
     }
 

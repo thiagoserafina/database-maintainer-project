@@ -42,7 +42,7 @@ public class DBVacuum {
             Logger.log("Executando comando " + comandoReindex);
 
             try (Statement stmt = conn.createStatement()) {
-                stmt.execute(comandoReindex);  // Executa o REINDEX de forma isolada
+                stmt.execute(comandoReindex);
                 Logger.log("Comando " + comandoReindex + " executado com sucesso.");
             } catch (SQLException e) {
                 Logger.log("Erro ao executar comando " + comandoReindex + ": " + e.getMessage());
@@ -54,7 +54,7 @@ public class DBVacuum {
     }
 
     private static long diasDesdeUltimoVacuum(Connection conn) throws SQLException {
-        Logger.log("Verificando dias desde o último VACUUM.");
+        Logger.log("Verificando dias desde o ultimo VACUUM.");
         String query = "SELECT last_vacuum FROM pg_stat_all_tables WHERE schemaname = 'public' ORDER BY last_vacuum DESC LIMIT 1;";
 
         try (Statement stmt = conn.createStatement();
@@ -64,7 +64,7 @@ public class DBVacuum {
                 if (sqlDate != null) {
                     LocalDate lastVacuum = sqlDate.toLocalDate();
                     long dias = ChronoUnit.DAYS.between(lastVacuum, LocalDate.now());
-                    Logger.log("Último VACUUM realizado há " + dias + " dias.");
+                    Logger.log("Ãšltimo VACUUM realizado hÃ¡ " + dias + " dias.");
                     return dias;
                 } else {
                     Logger.log("Nenhum valor encontrado para last_vacuum.");

@@ -1,0 +1,353 @@
+2024-10-03T13:02:50.887903600 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:02:50.911638200 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:02:50.912638100 - Nenhum VACUUM encontrado.
+2024-10-03T13:02:51.261196300 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130250.bak
+2024-10-03T13:02:51.262195200 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130250.bak
+2024-10-03T13:02:51.262195200 - Iniciando criptografia do backup.
+2024-10-03T13:02:51.271717800 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130250.bak.enc
+2024-10-03T13:02:51.271717800 - Backup original excluído: C:\Temp\Backup\backup_20241003_130250.bak
+2024-10-03T13:02:51.272717200 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:10.181548500 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:03:10.185547100 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:03:10.186547 - Nenhum VACUUM encontrado.
+2024-10-03T13:03:10.371868700 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130310.bak
+2024-10-03T13:03:10.371868700 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130310.bak
+2024-10-03T13:03:10.372868100 - Iniciando criptografia do backup.
+2024-10-03T13:03:10.374871600 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130310.bak.enc
+2024-10-03T13:03:10.375868700 - Backup original excluído: C:\Temp\Backup\backup_20241003_130310.bak
+2024-10-03T13:03:10.375868700 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:12.798828600 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:03:12.803344 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:03:12.803344 - Nenhum VACUUM encontrado.
+2024-10-03T13:03:12.990613700 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130312.bak
+2024-10-03T13:03:12.990613700 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130312.bak
+2024-10-03T13:03:12.990613700 - Iniciando criptografia do backup.
+2024-10-03T13:03:12.993613700 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130312.bak.enc
+2024-10-03T13:03:12.993613700 - Backup original excluído: C:\Temp\Backup\backup_20241003_130312.bak
+2024-10-03T13:03:12.994616300 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:15.510006400 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:03:15.515002700 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:03:15.515002700 - Nenhum VACUUM encontrado.
+2024-10-03T13:03:15.699363100 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130315.bak
+2024-10-03T13:03:15.699363100 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130315.bak
+2024-10-03T13:03:15.699363100 - Iniciando criptografia do backup.
+2024-10-03T13:03:15.702369600 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130315.bak.enc
+2024-10-03T13:03:15.702369600 - Backup original excluído: C:\Temp\Backup\backup_20241003_130315.bak
+2024-10-03T13:03:15.702369600 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:17.653058700 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:03:17.657054100 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:03:17.658558100 - Nenhum VACUUM encontrado.
+2024-10-03T13:03:17.938643100 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130317.bak
+2024-10-03T13:03:17.938643100 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130317.bak
+2024-10-03T13:03:17.938643100 - Iniciando criptografia do backup.
+2024-10-03T13:03:17.941131800 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130317.bak.enc
+2024-10-03T13:03:17.942132300 - Backup original excluído: C:\Temp\Backup\backup_20241003_130317.bak
+2024-10-03T13:03:17.942132300 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:19.535671400 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:03:19.540836200 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:03:19.540836200 - Nenhum VACUUM encontrado.
+2024-10-03T13:03:19.718716100 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130319.bak
+2024-10-03T13:03:19.718716100 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130319.bak
+2024-10-03T13:03:19.718716100 - Iniciando criptografia do backup.
+2024-10-03T13:03:19.721764100 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130319.bak.enc
+2024-10-03T13:03:19.721764100 - Backup original excluído: C:\Temp\Backup\backup_20241003_130319.bak
+2024-10-03T13:03:19.721764100 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:21.322389300 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:03:21.327386600 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:03:21.327386600 - Nenhum VACUUM encontrado.
+2024-10-03T13:03:21.532252500 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130321.bak
+2024-10-03T13:03:21.532252500 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130321.bak
+2024-10-03T13:03:21.532252500 - Iniciando criptografia do backup.
+2024-10-03T13:03:21.534250300 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130321.bak.enc
+2024-10-03T13:03:21.535252100 - Backup original excluído: C:\Temp\Backup\backup_20241003_130321.bak
+2024-10-03T13:03:21.537251800 - Backup antigo excluído: backup_20241003_130310.bak.enc
+2024-10-03T13:03:21.537251800 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:24.043263100 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:03:24.048771400 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:03:24.048771400 - Nenhum VACUUM encontrado.
+2024-10-03T13:03:24.243495 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130324.bak
+2024-10-03T13:03:24.243495 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130324.bak
+2024-10-03T13:03:24.244495100 - Iniciando criptografia do backup.
+2024-10-03T13:03:24.246496600 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130324.bak.enc
+2024-10-03T13:03:24.247497900 - Backup original excluído: C:\Temp\Backup\backup_20241003_130324.bak
+2024-10-03T13:03:24.247497900 - Backup antigo excluído: backup_20241003_130312.bak.enc
+2024-10-03T13:03:24.248495600 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:36.774256500 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:03:36.788811800 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:03:36.789818600 - Nenhum VACUUM encontrado.
+2024-10-03T13:03:36.997448100 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130336.bak
+2024-10-03T13:03:36.998446900 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130336.bak
+2024-10-03T13:03:36.998951900 - Iniciando criptografia do backup.
+2024-10-03T13:03:37.006962500 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130336.bak.enc
+2024-10-03T13:03:37.006962500 - Backup original excluído: C:\Temp\Backup\backup_20241003_130336.bak
+2024-10-03T13:03:37.010472900 - Backup antigo excluído: backup_20241003_130315.bak.enc
+2024-10-03T13:03:37.010472900 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:37.041633900 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:03:37.070613500 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:03:39.333425100 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:03:39.338424900 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:03:39.338928100 - Nenhum VACUUM encontrado.
+2024-10-03T13:03:39.543422600 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130339.bak
+2024-10-03T13:03:39.543422600 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130339.bak
+2024-10-03T13:03:39.543422600 - Iniciando criptografia do backup.
+2024-10-03T13:03:39.546936700 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130339.bak.enc
+2024-10-03T13:03:39.546936700 - Backup original excluído: C:\Temp\Backup\backup_20241003_130339.bak
+2024-10-03T13:03:39.546936700 - Backup antigo excluído: backup_20241003_130317.bak.enc
+2024-10-03T13:03:39.548441600 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:39.576475100 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:03:39.598500500 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:03:42.246257700 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:03:42.251528400 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:03:42.251528400 - Nenhum VACUUM encontrado.
+2024-10-03T13:03:42.428828800 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130342.bak
+2024-10-03T13:03:42.428828800 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130342.bak
+2024-10-03T13:03:42.428828800 - Iniciando criptografia do backup.
+2024-10-03T13:03:42.431840400 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130342.bak.enc
+2024-10-03T13:03:42.431840400 - Backup original excluído: C:\Temp\Backup\backup_20241003_130342.bak
+2024-10-03T13:03:42.432840500 - Backup antigo excluído: backup_20241003_130319.bak.enc
+2024-10-03T13:03:42.432840500 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:03:42.463892300 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:03:42.486090300 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:07:42.424209300 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:07:42.443677500 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:07:42.443677500 - Nenhum VACUUM encontrado.
+2024-10-03T13:07:42.657550 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130742.bak
+2024-10-03T13:07:42.658551 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130742.bak
+2024-10-03T13:07:42.658551 - Iniciando criptografia do backup.
+2024-10-03T13:07:42.667571700 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130742.bak.enc
+2024-10-03T13:07:42.668571600 - Backup original excluído: C:\Temp\Backup\backup_20241003_130742.bak
+2024-10-03T13:07:42.670571 - Backup antigo excluído: backup_20241003_130321.bak.enc
+2024-10-03T13:07:42.670571 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:07:42.701716600 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:07:42.723750500 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:07:52.601296300 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:07:52.605296300 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:07:52.606776 - Nenhum VACUUM encontrado.
+2024-10-03T13:07:52.802324700 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130752.bak
+2024-10-03T13:07:52.802324700 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130752.bak
+2024-10-03T13:07:52.803325500 - Iniciando criptografia do backup.
+2024-10-03T13:07:52.805324400 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130752.bak.enc
+2024-10-03T13:07:52.805829700 - Backup original excluído: C:\Temp\Backup\backup_20241003_130752.bak
+2024-10-03T13:07:52.806835700 - Backup antigo excluído: backup_20241003_130324.bak.enc
+2024-10-03T13:07:52.806835700 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:07:52.835371800 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:07:52.856505900 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:07:55.188495900 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:07:55.194494900 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:07:55.194494900 - Nenhum VACUUM encontrado.
+2024-10-03T13:07:55.386457 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130755.bak
+2024-10-03T13:07:55.387457400 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130755.bak
+2024-10-03T13:07:55.387457400 - Iniciando criptografia do backup.
+2024-10-03T13:07:55.389456 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130755.bak.enc
+2024-10-03T13:07:55.390456600 - Backup original excluído: C:\Temp\Backup\backup_20241003_130755.bak
+2024-10-03T13:07:55.390456600 - Backup antigo excluído: backup_20241003_130336.bak.enc
+2024-10-03T13:07:55.391457700 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:07:55.419238 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:07:55.442414700 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:07:57.061729300 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:07:57.066243 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:07:57.066243 - Nenhum VACUUM encontrado.
+2024-10-03T13:07:57.245215500 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130757.bak
+2024-10-03T13:07:57.245215500 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130757.bak
+2024-10-03T13:07:57.245215500 - Iniciando criptografia do backup.
+2024-10-03T13:07:57.247326400 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130757.bak.enc
+2024-10-03T13:07:57.248326700 - Backup original excluído: C:\Temp\Backup\backup_20241003_130757.bak
+2024-10-03T13:07:57.248326700 - Backup antigo excluído: backup_20241003_130339.bak.enc
+2024-10-03T13:07:57.249327500 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:07:57.275132600 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:07:57.296985700 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:07:58.877772600 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:07:58.882770900 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:07:58.882770900 - Nenhum VACUUM encontrado.
+2024-10-03T13:07:59.059358700 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130758.bak
+2024-10-03T13:07:59.059358700 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130758.bak
+2024-10-03T13:07:59.059358700 - Iniciando criptografia do backup.
+2024-10-03T13:07:59.061358800 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130758.bak.enc
+2024-10-03T13:07:59.062359400 - Backup original excluído: C:\Temp\Backup\backup_20241003_130758.bak
+2024-10-03T13:07:59.062359400 - Backup antigo excluído: backup_20241003_130342.bak.enc
+2024-10-03T13:07:59.063359700 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:07:59.089340300 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:07:59.111372 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:08:00.722550100 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:08:00.727065400 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:08:00.727065400 - Nenhum VACUUM encontrado.
+2024-10-03T13:08:00.917070400 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130800.bak
+2024-10-03T13:08:00.917070400 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130800.bak
+2024-10-03T13:08:00.917070400 - Iniciando criptografia do backup.
+2024-10-03T13:08:00.919072 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130800.bak.enc
+2024-10-03T13:08:00.920073 - Backup original excluído: C:\Temp\Backup\backup_20241003_130800.bak
+2024-10-03T13:08:00.921073200 - Backup antigo excluído: backup_20241003_130742.bak.enc
+2024-10-03T13:08:00.921073200 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:08:00.948080200 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:08:00.970693600 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:08:02.435349500 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:08:02.440779900 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:08:02.440779900 - Nenhum VACUUM encontrado.
+2024-10-03T13:08:02.616784600 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_130802.bak
+2024-10-03T13:08:02.617785100 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_130802.bak
+2024-10-03T13:08:02.617785100 - Iniciando criptografia do backup.
+2024-10-03T13:08:02.619784200 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_130802.bak.enc
+2024-10-03T13:08:02.620785500 - Backup original excluído: C:\Temp\Backup\backup_20241003_130802.bak
+2024-10-03T13:08:02.620785500 - Backup antigo excluído: backup_20241003_130752.bak.enc
+2024-10-03T13:08:02.621786300 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:08:02.650157700 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:08:02.672642100 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:10:58.681116300 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:10:58.698290300 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:10:58.698290300 - Nenhum VACUUM encontrado.
+2024-10-03T13:10:58.965199500 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131058.bak
+2024-10-03T13:10:58.966200400 - Iniciando criptografia do backup.
+2024-10-03T13:10:58.974709 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131058.bak.enc
+2024-10-03T13:10:58.974709 - Backup original excluído: C:\Temp\Backup\backup_20241003_131058.bak
+2024-10-03T13:10:58.976708800 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_130755.bak.enc
+2024-10-03T13:10:59.002837700 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131058.bak.enc
+2024-10-03T13:10:59.002837700 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:10:59.031863700 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:10:59.054497700 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:11:02.614223700 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:11:02.619220100 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:11:02.619220100 - Nenhum VACUUM encontrado.
+2024-10-03T13:11:02.775328500 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131102.bak
+2024-10-03T13:11:02.775328500 - Iniciando criptografia do backup.
+2024-10-03T13:11:02.778327 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131102.bak.enc
+2024-10-03T13:11:02.778327 - Backup original excluído: C:\Temp\Backup\backup_20241003_131102.bak
+2024-10-03T13:11:02.779328600 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_130757.bak.enc
+2024-10-03T13:11:02.804867800 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131102.bak.enc
+2024-10-03T13:11:02.804867800 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:11:02.834263900 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:11:02.857574300 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:11:04.863946700 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:11:04.867945600 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:11:04.868944900 - Nenhum VACUUM encontrado.
+2024-10-03T13:11:05.020433600 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131104.bak
+2024-10-03T13:11:05.021434900 - Iniciando criptografia do backup.
+2024-10-03T13:11:05.023951100 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131104.bak.enc
+2024-10-03T13:11:05.023951100 - Backup original excluído: C:\Temp\Backup\backup_20241003_131104.bak
+2024-10-03T13:11:05.024951300 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_130758.bak.enc
+2024-10-03T13:11:05.049306800 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131104.bak.enc
+2024-10-03T13:11:05.049306800 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:11:05.077852900 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:11:05.099796200 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:11:06.385834200 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:11:06.389832 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:11:06.389832 - Nenhum VACUUM encontrado.
+2024-10-03T13:11:06.542774300 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131106.bak
+2024-10-03T13:11:06.542774300 - Iniciando criptografia do backup.
+2024-10-03T13:11:06.545787300 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131106.bak.enc
+2024-10-03T13:11:06.545787300 - Backup original excluído: C:\Temp\Backup\backup_20241003_131106.bak
+2024-10-03T13:11:06.546790100 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_130800.bak.enc
+2024-10-03T13:11:06.571339300 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131106.bak.enc
+2024-10-03T13:11:06.571339300 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:11:06.597873700 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:11:06.619800100 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:11:07.866953500 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:11:07.871953100 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:11:07.871953100 - Nenhum VACUUM encontrado.
+2024-10-03T13:11:08.035930500 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131107.bak
+2024-10-03T13:11:08.035930500 - Iniciando criptografia do backup.
+2024-10-03T13:11:08.037932200 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131107.bak.enc
+2024-10-03T13:11:08.037932200 - Backup original excluído: C:\Temp\Backup\backup_20241003_131107.bak
+2024-10-03T13:11:08.038930100 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_130802.bak.enc
+2024-10-03T13:11:08.064754 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131107.bak.enc
+2024-10-03T13:11:08.064754 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:11:08.191327300 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:11:08.211593300 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:11:09.038263 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:11:09.042766600 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:11:09.042766600 - Nenhum VACUUM encontrado.
+2024-10-03T13:11:09.195106500 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131109.bak
+2024-10-03T13:11:09.195106500 - Iniciando criptografia do backup.
+2024-10-03T13:11:09.198105400 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131109.bak.enc
+2024-10-03T13:11:09.198105400 - Backup original excluído: C:\Temp\Backup\backup_20241003_131109.bak
+2024-10-03T13:11:09.199111100 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_131058.bak.enc
+2024-10-03T13:11:09.222953300 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131109.bak.enc
+2024-10-03T13:11:09.223976800 - Backup antigo excluído de C:\Temp\BackupAdicional\: backup_20241003_131058.bak.enc
+2024-10-03T13:11:09.223976800 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:11:09.251299 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:11:09.273975400 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:11:10.680666300 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:11:10.685175700 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:11:10.685175700 - Nenhum VACUUM encontrado.
+2024-10-03T13:11:10.861312900 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131110.bak
+2024-10-03T13:11:10.861312900 - Iniciando criptografia do backup.
+2024-10-03T13:11:10.863831600 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131110.bak.enc
+2024-10-03T13:11:10.863831600 - Backup original excluído: C:\Temp\Backup\backup_20241003_131110.bak
+2024-10-03T13:11:10.864833100 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_131102.bak.enc
+2024-10-03T13:11:10.890435500 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131110.bak.enc
+2024-10-03T13:11:10.891433400 - Backup antigo excluído de C:\Temp\BackupAdicional\: backup_20241003_131102.bak.enc
+2024-10-03T13:11:10.891433400 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:11:10.917887600 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:11:10.938998600 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:11:11.973922100 - Verificando dias desde o ultimo VACUUM.
+2024-10-03T13:11:11.978918600 - Nenhum valor encontrado para last_vacuum.
+2024-10-03T13:11:11.978918600 - Nenhum VACUUM encontrado.
+2024-10-03T13:11:12.129399400 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131111.bak
+2024-10-03T13:11:12.130401300 - Iniciando criptografia do backup.
+2024-10-03T13:11:12.132905400 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131111.bak.enc
+2024-10-03T13:11:12.132905400 - Backup original excluído: C:\Temp\Backup\backup_20241003_131111.bak
+2024-10-03T13:11:12.133911500 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_131104.bak.enc
+2024-10-03T13:11:12.158136300 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131111.bak.enc
+2024-10-03T13:11:12.159136900 - Backup antigo excluído de C:\Temp\BackupAdicional\: backup_20241003_131104.bak.enc
+2024-10-03T13:11:12.159136900 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:11:12.185589900 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:11:12.209047600 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:13:39.277266100 - Executando comando VACUUM FULL ANALYZE;
+2024-10-03T13:13:39.961329 - Comando VACUUM FULL ANALYZE; executado com sucesso.
+2024-10-03T13:13:40.122499900 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131339.bak
+2024-10-03T13:13:40.123506600 - Iniciando criptografia do backup.
+2024-10-03T13:13:40.131009 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131339.bak.enc
+2024-10-03T13:13:40.132016300 - Backup original excluído: C:\Temp\Backup\backup_20241003_131339.bak
+2024-10-03T13:13:40.134014800 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_131106.bak.enc
+2024-10-03T13:13:40.158579900 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131339.bak.enc
+2024-10-03T13:13:40.159580200 - Backup antigo excluído de C:\Temp\BackupAdicional\: backup_20241003_131106.bak.enc
+2024-10-03T13:13:40.159580200 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:13:40.189824800 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:13:40.213060 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:13:44.092546 - Executando comando VACUUM FULL ANALYZE;
+2024-10-03T13:13:44.753857900 - Comando VACUUM FULL ANALYZE; executado com sucesso.
+2024-10-03T13:13:44.911316900 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131344.bak
+2024-10-03T13:13:44.911316900 - Iniciando criptografia do backup.
+2024-10-03T13:13:44.914361200 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131344.bak.enc
+2024-10-03T13:13:44.915363800 - Backup original excluído: C:\Temp\Backup\backup_20241003_131344.bak
+2024-10-03T13:13:44.916365 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_131107.bak.enc
+2024-10-03T13:13:44.940928700 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131344.bak.enc
+2024-10-03T13:13:44.942414 - Backup antigo excluído de C:\Temp\BackupAdicional\: backup_20241003_131107.bak.enc
+2024-10-03T13:13:44.943410600 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:13:44.970942800 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:13:44.992172700 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:13:47.293253400 - Executando comando VACUUM FULL ANALYZE;
+2024-10-03T13:13:47.930296500 - Comando VACUUM FULL ANALYZE; executado com sucesso.
+2024-10-03T13:13:48.086854100 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131347.bak
+2024-10-03T13:13:48.086854100 - Iniciando criptografia do backup.
+2024-10-03T13:13:48.089853700 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131347.bak.enc
+2024-10-03T13:13:48.089853700 - Backup original excluído: C:\Temp\Backup\backup_20241003_131347.bak
+2024-10-03T13:13:48.090853200 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_131109.bak.enc
+2024-10-03T13:13:48.114966500 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131347.bak.enc
+2024-10-03T13:13:48.115966500 - Backup antigo excluído de C:\Temp\BackupAdicional\: backup_20241003_131109.bak.enc
+2024-10-03T13:13:48.116966300 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:13:48.147025100 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:13:48.169306500 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:13:50.249537600 - Executando comando VACUUM FULL ANALYZE;
+2024-10-03T13:13:50.879004600 - Comando VACUUM FULL ANALYZE; executado com sucesso.
+2024-10-03T13:13:51.038426700 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131350.bak
+2024-10-03T13:13:51.038426700 - Iniciando criptografia do backup.
+2024-10-03T13:13:51.040933700 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131350.bak.enc
+2024-10-03T13:13:51.040933700 - Backup original excluído: C:\Temp\Backup\backup_20241003_131350.bak
+2024-10-03T13:13:51.041941200 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_131110.bak.enc
+2024-10-03T13:13:51.066281900 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131350.bak.enc
+2024-10-03T13:13:51.067282700 - Backup antigo excluído de C:\Temp\BackupAdicional\: backup_20241003_131110.bak.enc
+2024-10-03T13:13:51.067282700 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:13:51.094461600 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:13:51.113189300 - Comando REINDEX DATABASE banco2; executado com sucesso.
+2024-10-03T13:13:52.741596200 - Executando comando VACUUM FULL ANALYZE;
+2024-10-03T13:13:53.295614 - Comando VACUUM FULL ANALYZE; executado com sucesso.
+2024-10-03T13:13:53.451222100 - Backup do banco de dados criado em: C:\Temp\Backup\backup_20241003_131353.bak
+2024-10-03T13:13:53.451222100 - Iniciando criptografia do backup.
+2024-10-03T13:13:53.453267200 - Backup criptografado com sucesso: C:\Temp\Backup\backup_20241003_131353.bak.enc
+2024-10-03T13:13:53.454267500 - Backup original excluído: C:\Temp\Backup\backup_20241003_131353.bak
+2024-10-03T13:13:53.454267500 - Backup antigo excluído de C:\Temp\Backup\: backup_20241003_131111.bak.enc
+2024-10-03T13:13:53.480073 - Backup adicional criado em: C:\Temp\BackupAdicional\backup_20241003_131353.bak.enc
+2024-10-03T13:13:53.481073200 - Backup antigo excluído de C:\Temp\BackupAdicional\: backup_20241002_131111.bak.enc
+2024-10-03T13:13:53.481578600 - Backup criado e criptografado com sucesso em: C:\Temp\Backup\
+2024-10-03T13:13:53.508132600 - Executando comando REINDEX DATABASE banco2;
+2024-10-03T13:13:53.527554700 - Comando REINDEX DATABASE banco2; executado com sucesso.

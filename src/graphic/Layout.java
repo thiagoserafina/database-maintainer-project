@@ -18,7 +18,6 @@ public class Layout extends JFrame {
     private final JCheckBox checkBoxFullAnalyze;
     private final JCheckBox checkBoxReindex;
     private final JCheckBox checkBoxBackup;
-    private final JCheckBox checkBoxExcluirBackupsAntigos;
     private final JCheckBox checkBoxCopiarBackupAdicional;
 
     /**
@@ -58,12 +57,12 @@ public class Layout extends JFrame {
         title.setAlignmentX(Component.LEFT_ALIGNMENT);
         panel.add(title);
 
-        JLabel subtitleVacuum = new JLabel("Opções de Vacuum:");
+        JLabel subtitleVacuum = new JLabel("Opcoes de Vacuum:");
         subtitleVacuum.setFont(new Font("Tahoma", Font.BOLD, 16));
         subtitleVacuum.setAlignmentX(Component.LEFT_ALIGNMENT);
         panel.add(subtitleVacuum);
 
-        checkBoxVacuumAutomatico = new JCheckBox("Executar Vacuum Automático com base nos dias");
+        checkBoxVacuumAutomatico = new JCheckBox("Executar Vacuum Automatico com base nos dias");
         panel.add(checkBoxVacuumAutomatico);
 
         checkBoxVacuum = new JCheckBox("Executar Vacuum");
@@ -97,7 +96,7 @@ public class Layout extends JFrame {
             }
         });
 
-        JLabel subtitleBackup = new JLabel("Opções de Backup:");
+        JLabel subtitleBackup = new JLabel("Opcoes de Backup:");
         subtitleBackup.setFont(new Font("Tahoma", Font.BOLD, 16));
         subtitleBackup.setAlignmentX(Component.LEFT_ALIGNMENT);
         panel.add(subtitleBackup);
@@ -105,21 +104,15 @@ public class Layout extends JFrame {
         checkBoxBackup = new JCheckBox("Fazer Backup");
         panel.add(checkBoxBackup);
 
-        checkBoxExcluirBackupsAntigos = new JCheckBox("Excluir backups antigos");
-        checkBoxExcluirBackupsAntigos.setEnabled(false);
-        panel.add(checkBoxExcluirBackupsAntigos);
-
         checkBoxCopiarBackupAdicional = new JCheckBox("Copiar backup adicional");
         checkBoxCopiarBackupAdicional.setEnabled(false);
         panel.add(checkBoxCopiarBackupAdicional);
 
         checkBoxBackup.addItemListener(e -> {
             boolean isSelected = (e.getStateChange() == ItemEvent.SELECTED);
-            checkBoxExcluirBackupsAntigos.setEnabled(isSelected);
             checkBoxCopiarBackupAdicional.setEnabled(isSelected);
 
             if (!isSelected) {
-                checkBoxExcluirBackupsAntigos.setSelected(false);
                 checkBoxCopiarBackupAdicional.setSelected(false);
             }
         });
@@ -139,7 +132,6 @@ public class Layout extends JFrame {
             boolean fullAnalyze = checkBoxFullAnalyze.isSelected();
             boolean reindex = checkBoxReindex.isSelected();
             boolean backup = checkBoxBackup.isSelected();
-            boolean excluirBackupsAntigos = checkBoxExcluirBackupsAntigos.isSelected();
             boolean copiarBackupAdicional = checkBoxCopiarBackupAdicional.isSelected();
 
             if (vacuumAutomatico) {
@@ -149,13 +141,13 @@ public class Layout extends JFrame {
                 DBVacuum.vacuumManual(true, fullAnalyze);
             }
             if (backup) {
-                DBBackup.executar(excluirBackupsAntigos, copiarBackupAdicional);
+                DBBackup.executar(copiarBackupAdicional);
             }
             if (reindex) {
                 DBVacuum.reindex();
             }
 
-            JOptionPane.showMessageDialog(null, "Operações iniciadas! Verifique os logs para mais detalhes.");
+            JOptionPane.showMessageDialog(null, "Operacoes iniciadas! Verifique os logs para mais detalhes.");
         });
         return btnIniciar;
     }
